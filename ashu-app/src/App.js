@@ -1,15 +1,17 @@
 import React from 'react';
-import ChildA from './component/ChildA';
+import Clock from './component/Clock';
 
 
 class App extends React.Component {
+  
   
 
   render(){
       
     return(<div>
+    
         
-        <ChildA  />
+        <Clock/>
         
        
       
